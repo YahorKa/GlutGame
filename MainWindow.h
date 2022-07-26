@@ -97,8 +97,8 @@ void drawSpaceship()
 
   glBegin(GL_POINTS); // thrusters
   glColor3f(1, 1, 1);
-  glVertex2f(spaceshipX - 10, spaceshipY - 30);
-  glVertex2f(spaceshipX + 10, spaceshipY - 30);
+  glVertex2f(spaceshipX - 10, spaceshipY - 40);
+  glVertex2f(spaceshipX + 10, spaceshipY - 40);
   glEnd();
 
   glBegin(GL_TRIANGLES); // right wing
